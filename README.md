@@ -1,6 +1,6 @@
 <h2>ImageMask-Dataset-MoNuSeg (2024/06/26)</h2>
 
-This is ImageMask Dataset for MoNuSeg(Multi Ogran Nuclei Segmentation) 2018.<br>
+This is ImageMask Dataset for MoNuSeg(Multi Organ Nuclei Segmentation) 2018.<br>
 The dataset used here has been taken from the following web-site<br>
 <b>Challenges/MoNuSeg/Data</b><br>
 <pre>
@@ -71,7 +71,7 @@ MoNuSeg-master was generated from Training data, and mini_test from Testing data
 <br>
 
 As shown above, the number of the original Tissue-images in Training data is only 37, and too small to use for a training of a segmentation model.
-Therefore, in order to increase of the number of the training data, we applied the following data augmentation methods to the orginal Training data.<br>
+Therefore, in order to increase of the number of the training data, we applied the following data augmentation methods to the original Training data.<br>
 <li>hfip</li>
 <li>vflip</li>
 <li>rotation</li>
