@@ -81,7 +81,7 @@ Therefore, in order to increase of the number of the training data, we applied t
 <li>barrel_distortion</li>
 <li>pincussion_distortion</li>
 <br>
-On detail of these methods, please refer to <a href="./ImageMaskDatasegGenerator.py">ImageMaskDatasegGenerator.py</a>.<br>
+On detail of these methods, please refer to <a href="./ImageMaskDatasetGenerator.py">ImageMaskDatasetGenerator.py</a>.<br>
 Furthermore, we resized all images and masks in the Training dataset to 512x512 pixels from their original 1000x1000 pixels to create the MoNuSeg-master dataset
 to be acceptable as a training dataset for an ordinary UNet Segmentation Model.
  In contrast, we retained all images and masks in the Testing dataset at their original 1000x1000 pixels to create the mini_test dataset.<br>
@@ -95,7 +95,7 @@ Pleser run the following command for Python <a href="./split_master.py">split_ma
 <pre>
 >python split_master.py
 </pre>
-This splits MoNuSeg-master into test, train and valid subdataet.<br>
+This splits MoNuSeg-master into test, train and valid subdatasets.<br>
 <pre>
 ./MoNuSeg-ImageMask-Dataset-V1
 ├─test
@@ -115,5 +115,5 @@ Train mask sample<br>
 <img src="./asset/train_masks_sample.png" width=1024 heigh="auto"><br><br>
 
 
-Dataset Statictics <br>
+Dataset Statistics <br>
 <img src="./MoNuSeg-ImageMask-Dataset-V1_Statistics.png" width="512" height="auto"><br>
